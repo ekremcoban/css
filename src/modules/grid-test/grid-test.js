@@ -74,7 +74,7 @@ const gridTest = () => {
                 <div className="col-3-of-4">
                     Col 3 of 4
                 </div>
-            </div>
+            </div> 
         </div>
     );
 }
