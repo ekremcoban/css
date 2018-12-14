@@ -11,6 +11,9 @@ const fourthPage = () => {
             </div>
             <div className="row">
                 <div className="col-1-of-3">
+                    <div className="card">
+                        d
+                    </div>
                     col
                 </div>
                 <div className="col-1-of-3">
