@@ -32,17 +32,54 @@ const fourthPage = () => {
                             </div>
                         </div>
                         <div className="card__side card__side--back card__side--back--1">
-                            back
+                            <div className="card__cta">
+                                <div className="card__price--box">
+                                    <p className="card__price--only">Only</p>
+                                    <p className="card__price--value">$297</p>
+                                </div>
+                                <a href="#" className="btn btn--white">Book now!</a>
+                            </div>
                         </div>
                     </div>
-                    col
+                </div>
+                <div className="col-1-of-3">
+                    <div className="card">
+                        <div className="card__side card__side--front">
+                            <div className="card__picture card__picture--2">
+                                &nbsp;
+                            </div>
+                            <h4 className="card__heading">
+                                <span className="card__heading-span card__heading-span--2">
+                                    The Forest Hiker
+                                </span>
+                            </h4>
+                            <div className="card__details">
+                                <ul>
+                                    <li>7 day tour</li>
+                                    <li>Up to 40 people</li>
+                                    <li>6 tour guides</li>
+                                    <li>Sleep in provided tents</li>
+                                    <li>Difficulty: medium</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="card__side card__side--back card__side--back--2">
+                            <div className="card__cta">
+                                <div className="card__price--box">
+                                    <p className="card__price--only">s</p>
+                                    <p className="card__price--value">ddd</p>
+                                </div>
+                                <a href="#" className="btn btn--white">Book now!</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-1-of-3">
                     col
                 </div>
-                <div className="col-1-of-3">
-                    col
-                </div>
+            </div>
+            <div className="u-center-text u-margin-top-huge">
+                <a href="#" className="btn btn--green">Discover all tours</a>
             </div>
         </section>
     );
