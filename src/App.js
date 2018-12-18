@@ -9,11 +9,13 @@ import FourthSection from './modules/fourthSection/fourth-section';
 import FifthSection from './modules/fifthSection/fifth-section';
 import SixthSection from './modules/sixthSection/sixth-section';
 import Footer from './modules/footer/footer';
+import Navigation from './modules/navigation/navigation';
 
 class App extends Component {
   render() {
     return (
       <div>
+        <Navigation/>
         <Header />
         {/* <Test1 />
         <GridTest/> */}
