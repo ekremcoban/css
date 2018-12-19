@@ -10,6 +10,7 @@ import FifthSection from './modules/fifthSection/fifth-section';
 import SixthSection from './modules/sixthSection/sixth-section';
 import Footer from './modules/footer/footer';
 import Navigation from './modules/navigation/navigation';
+import Popup from './modules/popup/pop-up';
 
 class App extends Component {
   render() {
@@ -25,6 +26,7 @@ class App extends Component {
         <FifthSection />
         <SixthSection />
         <Footer />
+        <Popup />
       </div>
     );
   }

@@ -3,7 +3,7 @@ import './fourthSection.scss';
 
 const fourthPage = () => {
     return (
-        <section className="section-tours">
+        <section className="section-tours" id="section-tours">
             <div className="u-center-text u-margin-bottom-big">
                 <h2 className="heading-secondary">
                     Most popular tours
@@ -37,7 +37,7 @@ const fourthPage = () => {
                                     <p className="card__price--only">Only</p>
                                     <p className="card__price--value">$297</p>
                                 </div>
-                                <a href="#" className="btn btn--white">Book now!</a>
+                                <a href="#popup" className="btn btn--white">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const fourthPage = () => {
                                     <p className="card__price--only">Adding</p>
                                     <p className="card__price--value">+400 tl</p>
                                 </div>
-                                <a href="#" className="btn btn--white">Book now!</a>
+                                <a href="#popup" className="btn btn--white">Book now!</a>
                             </div>
                         </div>
                     </div>
@@ -102,7 +102,7 @@ const fourthPage = () => {
                                         <div className="card__price--only">Adding</div>
                                         <div className="card__price--value">+600 tl</div>
                                     </div>
-                                    <a href="#" className="btn btn--white">Book now!</a>
+                                    <a href="#popup" className="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>

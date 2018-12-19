@@ -13,7 +13,7 @@ const header = () => {
                 <span className="heading-primary--main">Outdoors</span>
                 <span className="heading-primary--sub">is where life happen</span>
             </h1>
-            <a href="#" className="btn btn--white btn--animated">Discover out tours</a>
+            <a href="#section-tours" className="btn btn--white btn--animated">Discover out tours</a>
             </div>
         </div>
     );
