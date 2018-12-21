@@ -1,4 +1,5 @@
 @import "../../sass/abstracts/variables";
+@import "../../sass/abstracts/mixins";
 @import "../../sass/components/feature-box";
 
 .section-features {
@@ -16,5 +17,9 @@
     // .section-features
     & > * {
         transform: skewY(7deg);
+    }
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
     }
 }

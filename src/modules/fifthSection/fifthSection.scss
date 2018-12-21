@@ -1,8 +1,13 @@
 @import "../../sass/abstracts/variables";
+@import "../../sass/abstracts/mixins";
 @import "../../sass/components/story";
 @import "../../sass/components/bg-video";
 
 .section-stories {
     padding: 15rem 0;
     position: relative;
+
+    @include respond(tab-port) {
+        padding: 10rem 0;
+    }
 }
